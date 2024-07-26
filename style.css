@@ -1,0 +1,139 @@
+body{
+    text-align: center;
+    background-image: url('masjid2.jpg') ;
+    background-size: cover; /* Ajuste l'image pour couvrir toute la page */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center center; /* Centre l'image */
+    background-attachment: fixed;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; 
+    height:  auto;
+}
+.header{
+    height: auto;
+    text-align: center;
+    box-shadow: red 5px 5px 5px ;
+    border : 1px solid ;
+    border-radius: 2%;
+    background-color: gray;
+    opacity: 0.5;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3px;
+}
+.header h1{
+    color: #d9d8da;
+    text-shadow: black 5px 5px 5px ;
+}
+.h3-1{
+    text-align: center;
+    color: rgb(42, 94, 94);
+    text-decoration:underline;
+    background-color:yellow ;
+    padding: 10px;
+    box-shadow: grey 5px 5px 5px ;
+    border : 1px solid ;
+    border-radius: 5%;
+}
+fieldset{
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: wheat 5px 5px 5px ;
+    border : 1px solid ;
+    border-radius: 2%;
+}
+#select{
+    width: 100%;
+    text-align: center;
+    height: 25px;
+    border : 1px solid yellow;
+    border-radius: 4%;
+    background-color: gray;
+    opacity: 1;
+    color: rgb(228, 13, 13);
+}
+#select option{
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 25px;
+    border : 1px solid yellow;
+    border-radius: 4%;
+    background-color: gray;
+    opacity: 0.5;
+}
+.content-salat{
+    height: auto;
+    text-align: center;
+    box-shadow: wheat 5px 5px 5px ;
+    border : 1px solid ;
+    border-radius: 2%;
+    background-color: rgb(180, 143, 20);
+    opacity: 0.ç;
+    width: 70%;
+    margin-left: 15%;
+    margin-top:5% ;
+}
+#prayerTimes p{
+    color: yellow;
+}
+#prayerTimes p span{
+    color: white;
+}
+@media (max-width: 480px ) {
+
+    .header {
+      font-size: 10px;
+      margin-bottom: 20%;
+
+    }
+    select {
+      font-size: 14px;
+      padding: 10px;
+    }
+    .content-salat p {
+      font-size: 14px;
+    }
+    fieldset{
+        width: 80%;
+        margin: 5%;
+
+    }
+
+    
+  }
+@media (min-width: 480px ) and (max-width: 500px ) {
+    .header {
+      font-size: 10px;
+      margin-bottom: 20%;
+    }
+    select {
+      font-size: 14px;
+      padding: 10px;
+    }
+    .content-salat p {
+      font-size: 14px;
+    }
+    fieldset{
+        width: 60%;
+
+    }
+    
+  }
+
+
+
+  @media (max-width: 600px) {
+    body {
+        background-size: auto 100%; /* Ajuste l'image pour couvrir toute la hauteur */
+    }
+}
+
+/* Style pour les écrans moyens (tablettes) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        background-size: cover; /* Ajuste l'image pour couvrir toute la page */
+    }
+}

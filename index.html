@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>توقيت الصلاة بالمغرب</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>توقيت الصلاة بالمغرب</h1>
+  </div>
+  <div class="content">
+    <form>
+      <fieldset>
+        <legend><h3 class="h3-1"> قم باختيار مدينة</h3></legend>
+        <select id="select" onchange="getPrayerTimes()">
+          <option value="Casablanca">الدار البيضاء</option>
+          <option value="Rabat">الرباط</option>
+          <option value="Marrakech">مراكش</option>
+          <option value="Fes">فاس</option>
+          <option value="Tangier">طنجة</option>
+          <option value="Agadir">أكادير</option>
+          <option value="Meknes">مكناس</option>
+          <option value="Oujda">وجدة</option>
+          <option value="Kenitra">القنيطرة</option>
+          <option value="Tetouan">تطوان</option>
+        </select>
+        <div class="content-salat" id="prayerTimes">
+          <!-- سيتم عرض أوقات الصلاة هنا -->
+        </div>
+      </fieldset>
+    </form>
+  </div>
+
+  <script src="file.js"></script>
+</body>
+</html>
