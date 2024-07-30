@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-image: url('masjid2.jpg') ;
+    background-image: url('masjid.jpg') ;
     background-size: cover; /* Ajuste l'image pour couvrir toute la page */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
     background-position: center center; /* Centre l'image */
@@ -10,6 +10,50 @@ body{
     padding: 0;
     font-family: Arial, sans-serif; 
     height:  auto;
+}
+.a1{
+    text-decoration: none;
+    color: #fff;
+    text-shadow:gainsboro 3px 3px 3px ;
+    border: 1px solid rgb(239, 172, 94);
+    padding: 10px;
+    border-radius: 10%;
+}
+.a1:hover{
+    text-decoration: none;
+    color: #ebb7b7;
+    text-shadow:#ebb7b7 3px 3px 3px ;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10%;
+}
+.d1{
+    display: flex;
+    gap: 10%;
+    background-color: rgb(239, 172, 94);
+    height: 40px;
+    border : 1px solid ;
+    border-radius: 2%;
+    box-shadow: gainsboro 5px 5px 5px;
+    padding: 1%;
+    margin-bottom: 1%;
+    justify-content: space-around;
+
+}
+#img1{
+    width: auto;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 3%;
+    margin-left: 4%;
+}
+.d2{
+    display: flex;
+    gap :5%;
+    width: 70%;
+    margin-left: 60%;
+    margin-top: 5px;
 }
 .header{
     height: auto;
@@ -82,11 +126,21 @@ fieldset{
 #prayerTimes p span{
     color: white;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black; 
+    margin-top: 2%;
+}
+footer p {
+    color: gray;
+    height: auto;
+}
 @media (max-width: 480px ) {
 
     .header {
       font-size: 10px;
-      margin-bottom: 20%;
+      margin-bottom: 10%;
 
     }
     select {
@@ -100,6 +154,47 @@ fieldset{
         width: 80%;
         margin: 5%;
 
+    }
+    .d1{
+        display: ruby-base;
+        height: 40px;
+        border : 1px solid ;
+        border-radius: 2%;
+        box-shadow: gainsboro 5px 5px 5px;
+        padding: 1%;
+        margin-bottom: 1%;
+        justify-content: center;
+    }
+    .d1{
+        display: block;
+        gap: 0%;
+        background-color: rgb(239, 172, 94);
+        height: 90px;
+        border : 1px solid ;
+        border-radius: 2%;
+        box-shadow: gainsboro 5px 5px 5px;
+        padding: 1%;
+        margin-bottom: 1%;
+    }
+    #img1{
+        width: auto;
+        height: 40px;
+        border: 1px solid black;
+        border-radius: 10%;
+        padding: 1%;
+        margin-left: 0%;
+    }
+    .d2{
+        display: flex;
+        gap :35px;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 15px;
+        justify-content: space-between;
+    }
+    .d3{
+        display: flex;
+        justify-content: center;
     }
 
     
